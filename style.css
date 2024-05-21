@@ -1,0 +1,79 @@
+body {
+    padding-top: 56px;
+}
+  
+#hero {
+    background-color: #f8f9fa; 
+    color: #343a40;
+    padding: 100px 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+  
+.social-links a {
+    color: #343a40;
+    margin: 0 10px;
+}
+#about,
+#resume,
+#services,
+#contact {
+    padding: 50px 0;
+}
+  
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+  
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.fade-in.active {
+    opacity: 1;
+}
+  
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+  
+.dark-mode .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,255,255,.55)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+  
+.dark-mode .navbar-dark .navbar-toggler-icon.sun {
+    display: none;
+}
+  
+.dark-mode .navbar-dark .navbar-toggler-icon.moon {
+    display: inline-block;
+}
+  
+.dark-mode .skill-bar {
+    background-color: white !important;
+    color: black !important;
+}
+
+.skill-bar.html.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
+
+.skill-bar.css.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
+
+.skill-bar.javascript.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
+
